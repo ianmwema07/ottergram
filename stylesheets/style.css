@@ -1,15 +1,37 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('fonts/Montserrat-Regular.ttf');
+    src: url('fonts/Montserrat-Bold.ttf');
+    src: url('fonts/Montserrat-Black.ttf');
+    src: url('fonts/Montserrat-BlackItalic.ttf');
+    src: url('fonts/Montserrat-BoldItalic.ttf');
+    src: url('fonts/Montserrat-ExtraBold.ttf');
+    src: url('fonts/Montserrat-ExtraLight.ttf');
+    src: url('fonts/Montserrat-Regular.ttf');
+    src: url('fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    }
+ 
 body{
     font-size: 10px;
-    background: rgb(149, 194, 215);
+    background: rgb(87, 185, 30);
 }
 
 a{
     text-decoration:none;
 }
 
-.thumbnail-item{
-    border:1px solid rgb(100%, 100%, 100%);
-    border:1px solid rgba(100%, 100%, 100%, 0.8);
+.logo-text{
+    background: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 37px;
+}
+
+.thumbnail-item + .thumbnail-item{
+    margin-top: 10px;
 }
 
 .thumbnail-image{
@@ -19,6 +41,7 @@ a{
 
 .thumbnail-list{
     list-style: none;
+    padding: 0;
 }
 
 .thumbnail-item{
