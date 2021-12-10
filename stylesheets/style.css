@@ -15,7 +15,7 @@
  
 body{
     font-size: 10px;
-    background: rgb(87, 185, 30);
+    background: rgb(240, 8, 255);
 }
 
 a{
@@ -57,4 +57,8 @@ a{
     background: rgb(96, 125, 139);
     color:rgb(202, 238, 255);
     font-size: 18px;
+}
+
+.detail-image {
+    width: 90%;
 }
