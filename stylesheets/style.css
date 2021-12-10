@@ -11,12 +11,20 @@
     src: url('fonts/Montserrat-Regular.ttf');
     font-weight: normal;
     font-style: normal;
-    }
+}
+
+
+html, body {
+    height:100%;
+}    
  
 body{
+    display:flex;
+    flex-direction: column;
     font-size: 10px;
-    background: rgb(240, 8, 255);
+    background: rgb(149, 194, 215);
 }
+
 
 a{
     text-decoration:none;
@@ -40,14 +48,23 @@ a{
 }
 
 .thumbnail-list{
+    display:inline-block;
+    width: 120px;
     list-style: none;
     padding: 0;
 }
 
+.thumbnail-collection{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
 .thumbnail-item{
-    display: block;
-    border: 1px solid rgb(100%, 100%, 100%);
+    display:inline-block;
+    width: 120px;
+    border: 1px solid rgb(100%, 100%, 100%, 0.8);
     border: 1px solid rgba(100%, 100%, 100%, 0.8);
+    
 }
 
 .thumbnail-title{
